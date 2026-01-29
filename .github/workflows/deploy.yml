@@ -27,5 +27,5 @@ jobs:
           context: .
           push: true
           tags: |
-            ${{ secrets.DOCKER_NAME }}/ga-docker-demo:latest
+            ${{ secrets.DOCKER_NAME }}/ga-docker-demo:v1
             ${{ secrets.DOCKER_NAME }}/ga-docker-demo:v1
